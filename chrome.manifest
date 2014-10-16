@@ -1,0 +1,7 @@
+content sublime content/
+skin sublime classic/1.0 skin/
+locale sublime en-US locale/en-US/
+overlay chrome://komodo/content/pref/pref-ui.xul chrome://sublime/content/overlay_pref-ui.xul
+
+# Use custom scrollbars
+category komodo-skins-use-custom-scrollbars chrome://sublime/content/skins/default/chrome.manifest yes
