@@ -8,3 +8,4 @@ Sublime Text 3 UI for Komodo
 Changelog
 =========
 * 1.0 :: first release, contains some bugs with popup
+* 1.1 :: fix issue #1, now works on Komodo 8.5.4
