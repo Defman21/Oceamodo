@@ -1,0 +1,68 @@
+@import url("chrome://komodo/skin/plat/shared/tabs.less");
+@import url("chrome://sublime/skin/_config/colors.less");
+
+#editorviewbox tabs
+{
+    tab
+    {
+        padding: 3px 10px;
+        border-radius: 8px 8px 0 0;
+        margin-top: 8px;
+
+        .tab-icon
+        {
+            visibility: collapse;
+        }
+    }
+    
+    tab[first-tab="true"] {
+        margin-left: 12px !important;
+    }
+}
+
+.scrollbox-innerbox[orient="horizontal"] {
+    border-bottom: 3px solid #323232;
+    box-shadow: 0 -4px 4px -4px #161616;
+}
+
+.tab-arrowscrollbox
+{
+
+    & > .scrollbutton-up,
+    & > .scrollbutton-down-stack > .scrollbutton-down[chromedir="rtl"]
+    {
+        border-right: 1px solid !important;
+        -moz-border-right-colors: @color-strong !important;
+    }
+
+    & > .scrollbutton-down,
+    & > .scrollbutton-up[chromedir="rtl"]
+    {
+        border-left: 1px solid !important;
+        -moz-border-left-colors: @color-strong !important;
+    }
+}
+
+
+.tabs-select-button
+{
+    border-left: 1px solid !important;
+    padding-left: 4px;
+    -moz-border-left-colors: @color-strong !important;
+}
+
+.tabs-left
+{
+    visibility: collapse;
+}
+
+ko-pane[type="icons"] tab
+{
+  margin: 4px 4px 4px 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
