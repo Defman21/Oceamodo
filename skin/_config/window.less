@@ -24,10 +24,10 @@
 @outset-border:                         @main-border;
 @inset-border:                          @main-border;
 
-@splitter-appearance:                   none;
+//@splitter-appearance:                   none;
 @splitter-background-color:             @color-strongest;
 @splitter-background-image:             ~"none !important";
-@splitter-border:                       0;
+@splitter-border:                       1px;
 @splitter-grippy-visibility:            collapse;
 
 /* separators */
@@ -39,20 +39,20 @@
 @toolbarbutton-appearance:              none;
 @button-border-radius:                  4px;
 
-@button-background:                     @color-strongest;
+@button-background:                     @color-button;
 @button-color:                          @color-text-stronger;
 @button-border:                         0;
 @button-text-shadow:                    none;
 @button-color-disabled:                 fade(@button-color, 60%);
 @button-internal-border:                none;
 
-@button-background-hover:               @color-weak;
+@button-background-hover:               @color-button-hover;
 @button-color-hover:                    @button-color;
 @button-border-hover:                   @button-border;
 @button-text-shadow-hover:              none;
 @button-internal-border-hover:          none;
 
-@button-background-active:              @color-strongest;
+@button-background-active:              @color-button-active;
 @button-color-active:                   @button-color-hover;
 @button-border-active:                  @button-border-hover;
 @button-text-shadow-active:             none;
@@ -67,16 +67,16 @@
 @menulist-appearance:                   none !important;
 @menulist-editable-box-appearance:      none !important;
 @menulist-dropmarker-appearance:        none;
-@menulist-dropmarker-background:        transparent;
+@menulist-dropmarker-background:        @color-textbox;
 @menulist-dropmarker-border:            none;
 @menulist-dropmarker-display:           -moz-box;
-@textbox-background:                    @color-weakest;
+@textbox-background:                    @color-textbox;
 @textbox-color:                         @color-text-stronger;
 @textbox-box-shadow:                    none;
 @textbox-border:                        0;
 @textbox-border-radius:                 4px;
 
-@textbox-background-disabled:           fade(@color-weak, 80%);
+@textbox-background-disabled:           fade(@color-textbox, 80%);
 @textbox-color-disabled:                fade(@color-text-stronger, 50%);
 @textbox-border-disabled:               0;
 
@@ -116,10 +116,10 @@
 @statusbar-button-border:               0;
 
 @list-tree-appearance:                  none;
-@list-tree-background:                  @color-weak;
+@list-tree-background:                  @color-list;
 @list-tree-border:                      0;
 @list-tree-header-appearance:           none;
-@list-tree-header-background:           @color-strong;
+@list-tree-header-background:           @color-list;
 @list-tree-header-border-width:         0;
 @list-tree-header-border-style:         solid;
 @list-tree-header-border-color:         transparent;
@@ -159,7 +159,7 @@
 /* Tooltips */
 @tooltip-appearance:                    none;
 @tooltip-background:                    @color-strong;
-@tooltip-border:                        0;
+@tooltip-border:                        1px;
 @tooltip-color:                         @color-text-stronger;
 
 /* Wizards */
