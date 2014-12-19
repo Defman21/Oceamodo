@@ -3,9 +3,9 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
         <em:unpack>true</em:unpack>
-        <em:id>sublime@defmanblog.tk</em:id>
+        <em:id>sublime-skin@devbevariour.cf</em:id>
         <em:name>Sublime Skin</em:name>
-        <em:version>1.2</em:version>
+        <em:version>1.4</em:version>
         <em:description>Port of original Sublime Skin for Komodo</em:description>
         <em:creator>Sergey Kislyakov</em:creator>
         <em:type>2</em:type> <!-- type=extension --> 
