@@ -20,3 +20,4 @@ Changelog
 * 1.2 - fix issue #2, now works with Komodo 9.0.0-alpha
 * 1.3 - nothing (forgot to change version)
 * 1.4 - Update skin (new **colors, buttons, panes, tabs and other!!!**)
+* 1.4.1 - add base color support for `chrome://global/content/console.xul` (`background-color` in this release)
