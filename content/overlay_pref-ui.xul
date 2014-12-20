@@ -2,19 +2,19 @@
 <!-- Copyright (c) 2000-2013 ActiveState Software Inc. -->
 <!-- See the file LICENSE.txt for licensing information. -->
 <!DOCTYPE overlay PUBLIC "-//MOZILLA//DTD XUL V1.0//EN" "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" [
-  <!ENTITY % spacemodooDTD SYSTEM "chrome://spacemodoo/locale/spacemodoo.dtd">
-  %spacemodooDTD;
+  <!ENTITY % oceamodoDTD SYSTEM "chrome://oceamodo/locale/oceamodo.dtd">
+  %oceamodoDTD;
 ]>
 
-<overlay id="spacemodooSkinPrefUiOverlay"
+<overlay id="oceamodoSkinPrefUiOverlay"
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
     <menupopup id="koSkin_custom_skin_menupopup">
-        <menuitem id="pref_appearance_skin_spacemodoo"
-            label="&skinSpacemodoo.label;"
-            value="chrome://spacemodoo/content/chrome.manifest"
+        <menuitem id="pref_appearance_skin_oceamodo"
+            label="&skinoceamodo.label;"
+            value="chrome://oceamodo/content/chrome.manifest"
             insertafter="pref_appearance_skin_default"
             />
     </menupopup>

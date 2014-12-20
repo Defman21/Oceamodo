@@ -1,7 +1,7 @@
-content spacemodoo content/
-skin spacemodoo classic/1.0 skin/
-locale spacemodoo en-US locale/en-US/
-overlay chrome://komodo/content/pref/pref-ui.xul chrome://spacemodoo/content/overlay_pref-ui.xul
+content oceamodo content/
+skin oceamodo classic/1.0 skin/
+locale oceamodo en-US locale/en-US/
+overlay chrome://komodo/content/pref/pref-ui.xul chrome://oceamodo/content/overlay_pref-ui.xul
 
 # Use custom scrollbars
-category komodo-skins-use-custom-scrollbars chrome://spacemodoo/content/chrome.manifest yes
+category komodo-skins-use-custom-scrollbars chrome://oceamodo/content/chrome.manifest yes
