@@ -10,5 +10,5 @@ try {
   ko.open._notifyHowtoRestoreOldScheme(schemeService, oldScheme, schemeName);
   ko.prefs.setBoolean("showFileIcons", true);
 } catch (e) {
-  alert("Unable to set Spacemodo scheme!" + e);
+  alert("Unable to set Spacemodo scheme! You should do that manually :)");
 }
