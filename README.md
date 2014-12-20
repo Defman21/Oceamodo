@@ -3,7 +3,7 @@ Description
 
 Sublime Text 3 default UI adapted for Komodo
 
-![Screenshot](komodosublime.png)
+![Screenshot](komodospacemodo.png)
 
 Building
 ========
