@@ -3,8 +3,8 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
         <em:unpack>true</em:unpack>
-        <em:id>spacemodo-skin@devbevariour.cf</em:id>
-        <em:name>SpacemodoR</em:name>
+        <em:id>spacemodo-ocean@devbevariour.cf</em:id>
+        <em:name>Spacemodo Ocean</em:name>
         <em:version>1.0</em:version>
         <em:description>Spacemodo re-edited skin for Komodo</em:description>
         <em:creator>Sergey Kislyakov</em:creator>
