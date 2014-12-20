@@ -1,0 +1,4 @@
+/*.xpi
+build/
+build/**
+/*.komodoproject
