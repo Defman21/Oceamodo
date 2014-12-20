@@ -1,7 +1,7 @@
 Description
 ===================
 
-Spacemodo re-edited UI for Komodo
+Oceamodo skin for Komodo
 
 ![Screenshot](screen.png)
 
