@@ -1,14 +1,14 @@
-override chrome://komodo/skin/_config/window.less   chrome://spacemodo/skin/_config/window.less
-override chrome://komodo/skin/_config/tabs.less     chrome://spacemodo/skin/_config/tabs.less
-override chrome://komodo/skin/_config/toolbars.less chrome://spacemodo/skin/_config/toolbars.less
-override chrome://komodo/skin/_config/scrollbars.less   chrome://spacemodo/skin/_config/scrollbars.less
-override chrome://komodo/skin/_config/menus.less    chrome://spacemodo/skin/_config/menus.less
-override chrome://komodo/skin/_config/panes.less    chrome://spacemodo/skin/_config/panes.less
+override chrome://komodo/skin/_config/window.less   chrome://spacemodoo/skin/_config/window.less
+override chrome://komodo/skin/_config/tabs.less     chrome://spacemodoo/skin/_config/tabs.less
+override chrome://komodo/skin/_config/toolbars.less chrome://spacemodoo/skin/_config/toolbars.less
+override chrome://komodo/skin/_config/scrollbars.less   chrome://spacemodoo/skin/_config/scrollbars.less
+override chrome://komodo/skin/_config/menus.less    chrome://spacemodoo/skin/_config/menus.less
+override chrome://komodo/skin/_config/panes.less    chrome://spacemodoo/skin/_config/panes.less
 
-override chrome://komodo/skin/tabs.less     chrome://spacemodo/skin/tabs.less
-override chrome://komodo/skin/toolbars.less chrome://spacemodo/skin/toolbars.less
-override chrome://komodo/skin/modules.less  chrome://spacemodo/skin/modules.less
-override chrome://komodo/skin/window.less   chrome://spacemodo/skin/window.less
-override chrome://global/skin/console/console.css   chrome://spacemodo/skin/console.less
-override chrome://komodo/skin/platform.less          chrome://spacemodo/skin/platform.less appversion<=8.99
-override chrome://komodo/skin/platform.less          chrome://spacemodo/skin/platform9.less appversion>8.99
+override chrome://komodo/skin/tabs.less     chrome://spacemodoo/skin/tabs.less
+override chrome://komodo/skin/toolbars.less chrome://spacemodoo/skin/toolbars.less
+override chrome://komodo/skin/modules.less  chrome://spacemodoo/skin/modules.less
+override chrome://komodo/skin/window.less   chrome://spacemodoo/skin/window.less
+override chrome://global/skin/console/console.css   chrome://spacemodoo/skin/console.less
+override chrome://komodo/skin/platform.less          chrome://spacemodoo/skin/platform.less appversion<=8.99
+override chrome://komodo/skin/platform.less          chrome://spacemodoo/skin/platform9.less appversion>8.99

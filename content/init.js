@@ -3,7 +3,7 @@ try {
   var schemeName = "Spacemodo";
   if (schemeService.getScheme(schemeName) != schemeName)
   {
-    var _url = "chrome://spacemodo/content/" + schemeName + ".ksf";
+    var _url = "chrome://spacemodoo/content/" + schemeName + ".ksf";
     var result = schemeService.loadSchemeFromURI(_url, schemeName);
   }
   var oldScheme = schemeService.activateScheme(schemeName);
