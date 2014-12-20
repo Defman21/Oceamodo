@@ -4,9 +4,9 @@
     <Description about="urn:mozilla:install-manifest">
         <em:unpack>true</em:unpack>
         <em:id>spacemodo-skin@devbevariour.cf</em:id>
-        <em:name>Spacemodo Skin</em:name>
-        <em:version>1.1</em:version>
-        <em:description>Port of original Sublime Skin for Komodo</em:description>
+        <em:name>SpacemodoR</em:name>
+        <em:version>1.0</em:version>
+        <em:description>Spacemodo re-edited skin for Komodo</em:description>
         <em:creator>Sergey Kislyakov</em:creator>
         <em:type>2</em:type> <!-- type=extension --> 
 
