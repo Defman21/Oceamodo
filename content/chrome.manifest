@@ -10,4 +10,5 @@ override chrome://komodo/skin/toolbars.less chrome://sublime/skin/toolbars.less
 override chrome://komodo/skin/modules.less  chrome://sublime/skin/modules.less
 override chrome://komodo/skin/window.less   chrome://sublime/skin/window.less
 override chrome://global/skin/console/console.css   chrome://sublime/skin/console.less
-override chrome://komodo/skin/platform.less          chrome://sublime/skin/platform.less
+override chrome://komodo/skin/platform.less          chrome://sublime/skin/platform.less appversion<=8.99
+override chrome://komodo/skin/platform.less          chrome://sublime/skin/platform9.less appversion>8.99
