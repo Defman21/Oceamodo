@@ -16,3 +16,4 @@ Building
 Changelog
 =========
 * 1.0 - first release
+* 2.0 (plained)
