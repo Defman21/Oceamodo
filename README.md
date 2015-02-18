@@ -12,6 +12,7 @@ Building
 * Run:
 * For Windows: `koext.py build --unjarred`
 * For *nix (Mac OS and Linux): `koext build --unjarred`
+* If this commands doesn't works for you - you should use absolute path to `koext(.py)`. It's placed in `<komdoo install dir>/lib/sdk/bin/`
 
 Changelog
 =========
